@@ -1,0 +1,19 @@
+.members-image img {
+    height: 200px;
+    width: 200px;
+}
+.members {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 400px 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.members-text {
+    margin: 30px;
+}
+
+.members p {
+    font-size: 22px;
+}

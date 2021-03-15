@@ -1,0 +1,206 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(73, 79, 82);
+  color: white;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+
+
+.top { font-size: 18px; font-family: 'Raleway', sans-serif;  color:black; width: 100%;}
+        nav { text-align: left; padding-top: 25px; }
+        .top-home { display: inline;  margin: 30px; }
+        .top-blog {display: inline; margin: 30px;}
+        .top-contact {display: inline;  margin: 30px;}
+        .questions {text-align: right; font-size: 20px; padding: 0px 20px 1px 0px;}
+        h1 { font-size: 30px; font-family: 'Raleway', sans-serif; text-align: center; padding: 100px 0px 130px 0px; font-weight: 300;}
+        .content img {width: 500px; height: 300px;}
+        .content {font-family: 'Raleway', sans-serif; width: 70%; text-align: center; margin: 0 auto;}
+        .login {display: flex; justify-content: space-around; align-items: center; margin-left: 16%; margin-bottom: 220px; }
+        .login-text {text-align: center; width: 500px; padding: 30px 0px 0px 0px; line-height: 1.8;}
+        .contact {display: flex; justify-content: space-around; align-items: center; margin-left: 16%; margin-bottom: 220px;}
+        .contact-text {text-align: center; width: 500px; padding: 50px 50px 0px 0px; line-height: 1.8;}
+        .style {display: flex; justify-content: space-around; align-items: center; margin-left: 16%; margin-bottom: 130px;}
+        .style-text {text-align: center; width: 500px; padding: 50px 0px 0px 30px; line-height: 1.8;}
+        .top-home a {text-decoration: none; color:black;}
+        .top-blog a {text-decoration: none; color:black}
+        .top-contact a {text-decoration: none; color:black}
+        .questions a {color:black;}
+        .vid {text-align: center; margin-bottom: 100px; font-size: 24px; }
+        .vid a {color: black;}
+
+        @media only screen and (max-width: 1280px) {
+            .login {display: flex; margin-left: 10%; margin-bottom: 150px;}
+            .contact {display: flex;  margin-left: 10%; margin-right: 0%; margin-bottom: 150px;}
+            .style {display: flex; margin-left: 10%; margin-bottom: 150px;}
+        }
+
+        @media only screen and (max-width: 1024px) {
+            .login {display: flex; margin-left: 6%; margin-bottom: 150px;}
+            .login-text {text-align: center; width: 500px; padding: 30px 0px 0px 10px; line-height: 1.8;}
+            .content img {width: 400px; height: 230px;}
+            .contact {display: flex; margin-left: 3%; margin-right: 6%; margin-bottom: 150px;}
+            .style {display: flex; margin-left: 6%; margin-bottom: 150px;}
+            .style-text {text-align: center; width: 500px; padding: 30px 0px 0px 10px; line-height: 1.8;}
+        }
+            
+
+        @media only screen and (max-width: 768px) {
+            .content img {width: 270px; height: 140px;}
+            .login {margin-left: 10%; margin-bottom: 130px; }
+            .login-text {padding: 0px 0px 0px 20px; text-align: center; width: 300px;}
+            .contact {margin-left: 10%; margin-bottom: 130px; margin-right: 0px;}
+            .contact-text {padding: 0px 20px 0px 0px; text-align: center; width: 300px; line-height: 1.5;}
+            .style {margin-left: 10%; margin-bottom: 130px;}
+            .style-text {padding: 0px 0px 0px 20px; text-align: center; width: 300px; line-height: 1.3;}
+            h2 {margin-bottom: 10px;}
+            .content p {font-size: 14px;}
+        }
+
+        @media only screen and (max-width: 540px) {
+            .top-home {display: block; margin: 20px;}
+            .top-blog {display: block; margin: 20px;}
+            .top-contact {display: block; margin: 20px;}
+            .top {font-size: 14px;}
+            nav {padding: 5px; text-align: center;}
+            .questions {display: none;}
+            .content img {width: 270px; height: 140px;}
+            .login {display: block; margin: 0px; text-align: center;}
+            .login-text {padding: 0px 0px 0px 95px; text-align: center; width: 330px;}
+            .contact {display: flex; flex-flow: column-reverse; margin: 0px; text-align: center;  padding-left: 0px;}
+            .contact-text {width: 330px; padding-left: 95px; }
+            .style {display: block; margin: 0px; text-align: center;}
+            .style-text {width: auto; padding-left: 95px; line-height: 1.6; width: 330px}
+            h1 {padding: 65px 0px 65px 0px; font-size: 24px;}
+            h2 {font-size: 1.2em; margin-bottom: 0px;}
+            .login p {margin: 0px 0px 70px 0px;}
+            .contact p {margin: 0px 0px 70px 0px;}
+            .style p {margin: 0px 0px 70px 0px;}
+            .content p {font-size: 12px;}
+            .vid {font-size: 18px;}
+        }
+
+        @media only screen and (max-width: 415px) {
+            .top-home {display: block; margin: 20px;}
+            .top-blog {display: block; margin: 20px;}
+            .top-contact {display: block; margin: 20px;}
+            .top {font-size: 14px;}
+            nav {padding: 5px; text-align: center;}
+            .questions {display: none;}
+            .content img {width: 250px; height: 140px;}
+            .login {display: block; margin: 0px; text-align: center;}
+            .login-text {padding: 0px 0px 0px 0px; text-align: center; width: 100%;}
+            .contact {display: flex; flex-flow: column-reverse; margin: 0px; text-align: center;  padding: 0px;}
+            .contact-text { padding: 0px; width: 100%;}
+            .style {display: block; margin: 0px; text-align: center;}
+            .style-text {width: 100%; padding: 0px; line-height: 1.6;}
+            h1 {padding: 65px 0px 65px 0px; font-size: 24px;}
+            h2 {font-size: 1.2em; margin-bottom: 0px;}
+            .login p {margin: 0px 0px 70px 0px;}
+            .contact p {margin: 0px 0px 70px 0px;}
+            .style p {margin: 0px 0px 70px 0px;}
+            .content p {font-size: 12px;}
+            .vid {font-size: 18px;}
+        }
+
+        @media only screen and (max-width: 320px) {
+            .content img {width: 230px; height: 110px;}
+            
+            .content p {font-size: 11px;}
+        }
+
+        @media only screen and (max-width: 280px) {
+            .login-text {width: 100%; padding-left: 0px; margin-left: 0;}
+            .contact-text {width: 100%; padding-left: 0px;}
+            .style-text {width: 100%; padding-left: 0px; margin-left: 0;}
+            .login img {width: 100%;}
+            .contact img {width: 100%;}
+            .style img {width: 100%;}
+        }
+
+
+        .animate-top {
+            position: relative;
+            animation: animatetop 0.9s;
+            animation-duration: 0.9s;
+        }
+
+        .animate-bottom {
+            position: relative;
+            animation: animatebottom 0.9s;
+            animation-duration: 0.9s;
+        }
+
+        .animate-left {
+            position: relative;
+            animation: animateleft 0.9s;
+            animation-duration: 0.9s;
+        }
+
+        .animate-right {
+            position: relative;
+            animation: animateright 0.9s;
+            animation-duration: 0.9s;
+        }
+
+        @keyframes animatetop {
+            0% {
+                top: -300px;
+                opacity: 0;
+            }  
+
+            100% {
+                top: 0px;
+                opacity: 1;
+            }    
+        }
+
+        @keyframes animatebottom {
+            0% {
+                bottom: -300px;
+                opacity: 0;
+            }  
+
+            100% {
+                bottom: 0px;
+                opacity: 1;
+            }
+        }
+
+        @keyframes animateleft {
+            0% {
+                left: -300px;
+                opacity: 0;
+            }  
+
+            100% {
+                left: 0px;
+                opacity: 1;
+            }
+        }
+
+        @keyframes animateright {
+            0% {
+                right: -300px;
+                opacity: 0;
+            }  
+
+            100% {
+                right: 0px;
+                opacity: 1;
+            }
+        }
